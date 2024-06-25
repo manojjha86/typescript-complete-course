@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+}
+.ex-tracker-header{
+    /* box-shadow: rgb(196, 190, 190) 0px 2px 8px 0px; */
+    padding: 15px 30px;
+    font-weight:900;
+    font-size: 28px;
+    background-color: #28282B;
+    color: white;
+    border-bottom: #FF5733 1.5px solid;
+}
+.total-expense-amount{
+    margin: 0;
+    background-color: #28282B;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.ex-tracker-form-area{
+    margin: 0;
+    padding: 70px 0;
+    text-align: center;
+    background-color: #28282B;
+    color: white;
+}
+input[type=text], #expense-type{
+    width: 90%;
+    height: 40px;
+    padding: 10px 30px;
+}
+.add-expense-btn{
+    width: 90%;
+    height: 40px;
+    background-color: #FF5733;
+}
+.expense-item-container{
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.expense-debit-item-container, .expense-credit-item-container{
+    width: 50%;
+    padding: 10px 10px;
+}
+.credit-item, .debit-item{
+    padding: 5px 2px;
+    display: flex;
+    margin-top: 10px;
+}
+.credit-item{
+    background-color: #A3E4D7;
+    border: #1ABC9C  1.5px solid;
+}
+.debit-item{
+    background-color: #F5B7B1;
+    border: #FF5733 1.5px solid;
+}
+.exp-desc{
+    width: 65%;
+}
+.exp-amt{
+    width: 25%;
+}
+.exp-delete{
+    width: 10%;
+    text-align: right;
+}
+.delete-expense{
+    background-color: transparent;
+    border: #28282B 1px solid;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+.app-topic{
+    padding: 30px 30px;
+    margin: 50px 50px;
+    box-shadow: rgba(64, 211, 105, 0.35) 0px 5px 15px;
+    background-color: #2ECC71;
+    text-align: center;
+}
