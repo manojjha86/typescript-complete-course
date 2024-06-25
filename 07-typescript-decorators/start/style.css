@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #28282B;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Verdana, sans-serif;
+}
+.app-header{
+    box-shadow: rgb(196, 190, 190) 0px 2px 8px 0px;
+    padding: 15px 30px;
+}
+.app-topic{
+    padding: 30px 30px;
+    margin: 50px 50px;
+    box-shadow: rgba(64, 211, 105, 0.35) 0px 5px 15px;
+    background-color: #2ECC71;
+    text-align: center;
+}
